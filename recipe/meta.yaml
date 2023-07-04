@@ -1,18 +1,18 @@
 {% set name = "dremio-arrow" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dremio-arrow-{{ version }}.tar.gz
-  sha256: 0489ffd1dd0bfb0385a705f5a3d9af3d086e04f0d48702c929414c143e9b160d
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 16298472d5e43b52d7f419d24476403d265d7fde0b5f487066ed784ce35fe52c
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
