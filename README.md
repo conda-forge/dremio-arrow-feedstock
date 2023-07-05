@@ -1,11 +1,11 @@
-About dremio-arrow
-==================
+About dremio-arrow-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dremio-arrow-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jaysnm/dremio-arrow
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dremio-arrow-feedstock/blob/main/LICENSE.txt)
 
 Summary: Dremio SQL Lakehouse Arrow Flight Client.
 
